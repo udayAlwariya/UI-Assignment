@@ -1,4 +1,3 @@
-import React from "react";
 import editIcon from "../../assets/icon5.svg";
 
 const colorMap = {
@@ -27,7 +26,7 @@ const colorMap = {
 export default function InsuranceCard(props) {
   const { id, tagTitle } = props;
   const colors = colorMap[id] || {};
-
+    
   return (
     <div className={`${colors.card} relative rounded-lg`}>
       <div className="top-[-4px] absolute">

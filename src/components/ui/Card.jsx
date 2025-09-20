@@ -19,7 +19,7 @@ export default function Card({ ...props }) {
     4: <OnBoard />,
   };
   
-
+ // for slicing the array values to display double cards in 1st and 2nd section of information section
   let filteredData = [];
   if (name === "information") {
     if (id === 1) {

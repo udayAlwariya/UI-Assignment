@@ -71,9 +71,13 @@ function LogNotes() {
         </div>
       </div>
       <div className="w-full border-l border-gray-200">
-        <h1 className=" bg-custom-green text-white font-semibold pl-[16px] py-[8px]">
+        <div className="relative bg-custom-green flex justify-between">
+            <h1 className="  text-white font-semibold pl-[16px] py-[8px]">
           Notes
         </h1>
+        <div className="py-[7px] my-[4px] mr-[16px] text-[13px] font-semibold px-[16px] rounded-xl text-white bg-custom-green3">ADD NOTE</div>
+        </div>
+        
 
         <div className="pl-[16px]">
           <div>
