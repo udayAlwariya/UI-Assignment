@@ -1,0 +1,53 @@
+/* globals.css or index.css */
+@import "tailwindcss";
+@theme {
+  /* 🎨 Brand Colors */
+  
+  --color-custom-green2: #00B300;
+  --color-custom-green3: #00A04C;
+  --color-custom-green5: #039700;
+  
+  --color-bg: #F1F1F1;
+  --color-card: #ffffff;
+  --color-custom-black: #272727;
+  --color-custom-black2: #323232;
+  --color-custom-gray: #777777;
+  --color-custom-gray2: #343434;
+  --color-custom-gray3: #D2D2D2;
+  --color-custom-gray4: #F5F5F5;
+  --color-custom-gray5: #F6F6F7;
+  --color-custom-gray6: #C0C0C0;
+  --color-custom-blue: #0866FF;
+  --color-custom-blue2: #215BB9;
+
+  --color-custom-purple: #EEF1FF;
+  --color-custom-blue3: #2E7CFC;
+  --color-custom-blue4: #215CBB;
+
+  --color-custom-skyblue: #8DEAFF;
+  --color-custom-skyblue2: #00A7CD;
+  --color-custom-skyblue3: #0086A4;
+
+  --color-custom-lightorange: #FFEDCF;
+  --color-custom-orange: #FFA100;
+  --color-custom-orange2: #DA8900;
+  --color-custom-orange3: #FB9B33;
+
+  --color-custom-lightgreen: #CEF2C6;
+  --color-custom-green: #007070;
+  --color-custom-green4: #005A5A;
+
+  --color-custom-red: #EA181B;
+  --color-custom-red2: #FF0000;
+
+
+  /* 🔤 Typography */
+  --font-inter: "Inter", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --text-base: 13px;
+  --font-weight-medium: 500;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
